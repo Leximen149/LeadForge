@@ -18,7 +18,7 @@ public class Main{
             System.out.println("4- Exit\n\n");
             System.out.print("Enter your choice (1-4): ");
 
-            String choice = obj.nextLine();// used string instead of int so we dont get int errors
+            String choice = obj.nextLine();// used string instead of int so we don't get int errors
 
 
             switch(choice){
@@ -37,6 +37,7 @@ public class Main{
                     System.out.println();
 
                     addLeads(name,phone,email);
+
 
                     break;
                 case "2":
